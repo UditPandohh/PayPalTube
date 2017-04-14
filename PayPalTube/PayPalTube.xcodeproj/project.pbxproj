@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		988223F61EA002BF00608B41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988223F51EA002BF00608B41 /* AppDelegate.swift */; };
+		988223F81EA002BF00608B41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988223F71EA002BF00608B41 /* ViewController.swift */; };
+		988223FB1EA002BF00608B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988223F91EA002BF00608B41 /* Main.storyboard */; };
+		988223FE1EA002BF00608B41 /* PayPalTube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 988223FC1EA002BF00608B41 /* PayPalTube.xcdatamodeld */; };
+		988224001EA002BF00608B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988223FF1EA002BF00608B41 /* Assets.xcassets */; };
+		988224031EA002BF00608B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 988224011EA002BF00608B41 /* LaunchScreen.storyboard */; };
+		988224131EA0111F00608B41 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882240A1EA0111F00608B41 /* Accelerate.framework */; };
+		988224141EA0111F00608B41 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882240B1EA0111F00608B41 /* AudioToolbox.framework */; };
+		988224151EA0111F00608B41 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882240C1EA0111F00608B41 /* AVFoundation.framework */; };
+		988224161EA0111F00608B41 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882240D1EA0111F00608B41 /* CoreLocation.framework */; };
+		988224171EA0111F00608B41 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882240E1EA0111F00608B41 /* CoreMedia.framework */; };
+		988224181EA0111F00608B41 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9882240F1EA0111F00608B41 /* MessageUI.framework */; };
+		988224191EA0111F00608B41 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988224101EA0111F00608B41 /* MobileCoreServices.framework */; };
+		9882241A1EA0111F00608B41 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988224111EA0111F00608B41 /* SafariServices.framework */; };
+		9882241B1EA0111F00608B41 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 988224121EA0111F00608B41 /* SystemConfiguration.framework */; };
+		988224201EA05D6400608B41 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882241F1EA05D6400608B41 /* File.swift */; };
+		988224221EA0616D00608B41 /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988224211EA0616D00608B41 /* class.swift */; };
+		988224451EA0B28900608B41 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988224441EA0B28900608B41 /* MainViewController.swift */; };
+		988224471EA0BB5400608B41 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988224461EA0BB5400608B41 /* ScrollViewController.swift */; };
+		988224491EA0BEDF00608B41 /* ActiveUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988224481EA0BEDF00608B41 /* ActiveUserViewController.swift */; };
+		9882244B1EA0BF1800608B41 /* SubscriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882244A1EA0BF1800608B41 /* SubscriptionsViewController.swift */; };
+		E23D09D4DFCDF3F465C599FD /* Pods_PayPalTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EAE31A1F8DC57687998008 /* Pods_PayPalTube.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76DDFE4D326813F83540EB26 /* Pods-PayPalTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPalTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayPalTube/Pods-PayPalTube.debug.xcconfig"; sourceTree = "<group>"; };
+		79EAE31A1F8DC57687998008 /* Pods_PayPalTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayPalTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		988223F21EA002BF00608B41 /* PayPalTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPalTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		988223F51EA002BF00608B41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		988223F71EA002BF00608B41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		988223FA1EA002BF00608B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		988223FD1EA002BF00608B41 /* PayPalTube.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayPalTube.xcdatamodel; sourceTree = "<group>"; };
+		988223FF1EA002BF00608B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		988224021EA002BF00608B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		988224041EA002BF00608B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9882240A1EA0111F00608B41 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9882240B1EA0111F00608B41 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9882240C1EA0111F00608B41 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9882240D1EA0111F00608B41 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9882240E1EA0111F00608B41 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9882240F1EA0111F00608B41 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		988224101EA0111F00608B41 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		988224111EA0111F00608B41 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		988224121EA0111F00608B41 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9882241C1EA0119600608B41 /* PayPalTube-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayPalTube-Bridging-Header.h"; sourceTree = "<group>"; };
+		9882241F1EA05D6400608B41 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		988224211EA0616D00608B41 /* class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
+		988224441EA0B28900608B41 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		988224461EA0BB5400608B41 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		988224481EA0BEDF00608B41 /* ActiveUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveUserViewController.swift; sourceTree = "<group>"; };
+		9882244A1EA0BF1800608B41 /* SubscriptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionsViewController.swift; sourceTree = "<group>"; };
+		E77FBA52F1640B29968012CE /* Pods-PayPalTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayPalTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayPalTube/Pods-PayPalTube.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		988223EF1EA002BF00608B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988224131EA0111F00608B41 /* Accelerate.framework in Frameworks */,
+				988224141EA0111F00608B41 /* AudioToolbox.framework in Frameworks */,
+				988224151EA0111F00608B41 /* AVFoundation.framework in Frameworks */,
+				988224161EA0111F00608B41 /* CoreLocation.framework in Frameworks */,
+				988224171EA0111F00608B41 /* CoreMedia.framework in Frameworks */,
+				988224181EA0111F00608B41 /* MessageUI.framework in Frameworks */,
+				988224191EA0111F00608B41 /* MobileCoreServices.framework in Frameworks */,
+				9882241A1EA0111F00608B41 /* SafariServices.framework in Frameworks */,
+				9882241B1EA0111F00608B41 /* SystemConfiguration.framework in Frameworks */,
+				E23D09D4DFCDF3F465C599FD /* Pods_PayPalTube.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		988223E91EA002BF00608B41 = {
+			isa = PBXGroup;
+			children = (
+				988223F41EA002BF00608B41 /* PayPalTube */,
+				988223F31EA002BF00608B41 /* Products */,
+				FBE04A9B358D3518EC24A4D8 /* Pods */,
+				F01055C8F76DD90036B3E71C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		988223F31EA002BF00608B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				988223F21EA002BF00608B41 /* PayPalTube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988223F41EA002BF00608B41 /* PayPalTube */ = {
+			isa = PBXGroup;
+			children = (
+				988223F51EA002BF00608B41 /* AppDelegate.swift */,
+				988223F71EA002BF00608B41 /* ViewController.swift */,
+				988223F91EA002BF00608B41 /* Main.storyboard */,
+				9882244C1EA0BF2D00608B41 /* Scroll View */,
+				9882241F1EA05D6400608B41 /* File.swift */,
+				988224211EA0616D00608B41 /* class.swift */,
+				988223FF1EA002BF00608B41 /* Assets.xcassets */,
+				988224011EA002BF00608B41 /* LaunchScreen.storyboard */,
+				988224041EA002BF00608B41 /* Info.plist */,
+				988223FC1EA002BF00608B41 /* PayPalTube.xcdatamodeld */,
+				9882241C1EA0119600608B41 /* PayPalTube-Bridging-Header.h */,
+			);
+			path = PayPalTube;
+			sourceTree = "<group>";
+		};
+		9882244C1EA0BF2D00608B41 /* Scroll View */ = {
+			isa = PBXGroup;
+			children = (
+				988224461EA0BB5400608B41 /* ScrollViewController.swift */,
+				988224441EA0B28900608B41 /* MainViewController.swift */,
+				9882244A1EA0BF1800608B41 /* SubscriptionsViewController.swift */,
+				988224481EA0BEDF00608B41 /* ActiveUserViewController.swift */,
+			);
+			name = "Scroll View";
+			sourceTree = "<group>";
+		};
+		F01055C8F76DD90036B3E71C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9882240A1EA0111F00608B41 /* Accelerate.framework */,
+				9882240B1EA0111F00608B41 /* AudioToolbox.framework */,
+				9882240C1EA0111F00608B41 /* AVFoundation.framework */,
+				9882240D1EA0111F00608B41 /* CoreLocation.framework */,
+				9882240E1EA0111F00608B41 /* CoreMedia.framework */,
+				9882240F1EA0111F00608B41 /* MessageUI.framework */,
+				988224101EA0111F00608B41 /* MobileCoreServices.framework */,
+				988224111EA0111F00608B41 /* SafariServices.framework */,
+				988224121EA0111F00608B41 /* SystemConfiguration.framework */,
+				79EAE31A1F8DC57687998008 /* Pods_PayPalTube.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBE04A9B358D3518EC24A4D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76DDFE4D326813F83540EB26 /* Pods-PayPalTube.debug.xcconfig */,
+				E77FBA52F1640B29968012CE /* Pods-PayPalTube.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		988223F11EA002BF00608B41 /* PayPalTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 988224071EA002BF00608B41 /* Build configuration list for PBXNativeTarget "PayPalTube" */;
+			buildPhases = (
+				09B7A5992D329AD6BBDF774D /* [CP] Check Pods Manifest.lock */,
+				988223EE1EA002BF00608B41 /* Sources */,
+				988223EF1EA002BF00608B41 /* Frameworks */,
+				988223F01EA002BF00608B41 /* Resources */,
+				0227BD13F8119CC258B17954 /* [CP] Embed Pods Frameworks */,
+				9C4BD5384477463FC186ED79 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPalTube;
+			productName = PayPalTube;
+			productReference = 988223F21EA002BF00608B41 /* PayPalTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		988223EA1EA002BF00608B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = UditPandoh;
+				TargetAttributes = {
+					988223F11EA002BF00608B41 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 988223ED1EA002BF00608B41 /* Build configuration list for PBXProject "PayPalTube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 988223E91EA002BF00608B41;
+			productRefGroup = 988223F31EA002BF00608B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988223F11EA002BF00608B41 /* PayPalTube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		988223F01EA002BF00608B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988224031EA002BF00608B41 /* LaunchScreen.storyboard in Resources */,
+				988224001EA002BF00608B41 /* Assets.xcassets in Resources */,
+				988223FB1EA002BF00608B41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0227BD13F8119CC258B17954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayPalTube/Pods-PayPalTube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09B7A5992D329AD6BBDF774D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4BD5384477463FC186ED79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayPalTube/Pods-PayPalTube-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988223EE1EA002BF00608B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988223F81EA002BF00608B41 /* ViewController.swift in Sources */,
+				988224201EA05D6400608B41 /* File.swift in Sources */,
+				988224221EA0616D00608B41 /* class.swift in Sources */,
+				988224491EA0BEDF00608B41 /* ActiveUserViewController.swift in Sources */,
+				988224471EA0BB5400608B41 /* ScrollViewController.swift in Sources */,
+				988224451EA0B28900608B41 /* MainViewController.swift in Sources */,
+				988223F61EA002BF00608B41 /* AppDelegate.swift in Sources */,
+				988223FE1EA002BF00608B41 /* PayPalTube.xcdatamodeld in Sources */,
+				9882244B1EA0BF1800608B41 /* SubscriptionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		988223F91EA002BF00608B41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988223FA1EA002BF00608B41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		988224011EA002BF00608B41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				988224021EA002BF00608B41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		988224051EA002BF00608B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		988224061EA002BF00608B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		988224081EA002BF00608B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DDFE4D326813F83540EB26 /* Pods-PayPalTube.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PayPalTube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UditPandoh.PayPalTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayPalTube/PayPalTube-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		988224091EA002BF00608B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77FBA52F1640B29968012CE /* Pods-PayPalTube.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PayPalTube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UditPandoh.PayPalTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayPalTube/PayPalTube-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		988223ED1EA002BF00608B41 /* Build configuration list for PBXProject "PayPalTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988224051EA002BF00608B41 /* Debug */,
+				988224061EA002BF00608B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		988224071EA002BF00608B41 /* Build configuration list for PBXNativeTarget "PayPalTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988224081EA002BF00608B41 /* Debug */,
+				988224091EA002BF00608B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		988223FC1EA002BF00608B41 /* PayPalTube.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				988223FD1EA002BF00608B41 /* PayPalTube.xcdatamodel */,
+			);
+			currentVersion = 988223FD1EA002BF00608B41 /* PayPalTube.xcdatamodel */;
+			path = PayPalTube.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 988223EA1EA002BF00608B41 /* Project object */;
+}
